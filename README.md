@@ -8,9 +8,9 @@ This app is an assignment for making a logger using Node JS
 
 ### Set up
 
-1. Install NPM packages from the root of the repo
+Install NPM packages from the root of the repo.
 
-   yarn install
+    yarn install
 
 ### Running a build
 
@@ -20,7 +20,7 @@ Use the following command to run the build.
 
 ### Running a development server
 
-Use one of following command to run the code
+Use one of following command to run the code.
 
-1. yarn start --input ./app.log --output errors.json
-2. yarn start --input ./app.log --output errors.json --level error | debug | info
+    yarn start --input ./app.log --output errors.json
+    yarn start --input ./app.log --output errors.json --level error | debug | info
