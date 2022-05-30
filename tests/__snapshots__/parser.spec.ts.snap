@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser should parse the line and return data 1`] = `
+Object {
+  "data": Object {
+    "details": "Service is started",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+  },
+  "date": "2044-08-09T02:12:51.253Z",
+  "level": "info",
+}
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fromatter should parse the line and return data 1`] = `
+Object {
+  "err": "random",
+  "loglevel": "error",
+  "timestamp": 1640995200000,
+  "transactionId": "random-id",
+}
+`;
