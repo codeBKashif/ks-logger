@@ -1,0 +1,14 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.requireConfig": true,
+    "prettier.packageManager": "yarn",
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  }
+  

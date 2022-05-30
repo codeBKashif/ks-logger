@@ -1,0 +1,24 @@
+{
+  "name": "ks-logger",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10.20.1 <12"
+  },
+  "scripts": {
+    "build": "yarn ttsc -p tsconfig.app.json",
+    "start": "node dist/index.js",
+    "format": "prettier ./prettierrc '**/*(*.ts|*.js)'",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ts-command-line-args": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.29",
+    "@zerollup/ts-transform-paths": "^1.7.12",
+    "ttypescript": "^1.5.10",
+    "typescript": "3.8.3"
+  }
+}
